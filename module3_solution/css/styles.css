@@ -1,0 +1,113 @@
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    background-color: black;
+}
+h1{
+    color:;
+}
+
+/** HEADER **/
+
+#header-nav {
+    background-color: red;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: maroon;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #282828;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+}
+
+#nav-list {
+    background-color: maroon;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: black;
+    font-size: 1.5em;
+}
+
+#nav-list a:hover {
+    color: red;
+    background-color: darkred;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid cyan;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    color: red;
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#html-tile, #css-tile, #javascript-tile {
+    width: 100%;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #DEB887;
+    margin-bottom: 60px;
+    box-shadow: 0 20px 80px maroon;
+    animation-name: try;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes try{
+    0% {box-shadow: 0 20px 80px red;}
+    25% {box-shadow: 0 20px 80px black;}
+    50% {box-shadow: 0 20px 80px cyan;}
+    75% {box-shadow: 0 20px 80px black;}
+    100% {box-shadow: 0 20px 80px red;}
+}
+
+/** END HOME PAGE **/
