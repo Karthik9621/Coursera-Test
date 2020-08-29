@@ -1,0 +1,58 @@
+body{
+	background-image:url("ta.jpg");
+	background-position: center;
+	background-color: black;
+	font-style:underline;
+		
+}
+h1{
+	color:orange;
+	padding-top:90px;
+	margin-left:420px;
+	
+}
+video{
+	border-left: 2px solid violet;
+	border-right:2px solid aqua;
+	padding:1px;
+	margin-top: 10px;
+	margin-left: 420px;
+	
+}
+.a a{
+	font-size:20px;
+	margin-left:1000px;
+	color: white;
+}
+.a a:hover{
+	color:yellow;
+}
+.a3 a{
+	padding-left:240px;
+	margin-left:1190px;
+	font-size: 20px;
+	color:white;
+}
+.a3 a:hover{
+	color:grey;
+}
+.dd a{
+	font-size:20px;
+	color:white;
+	position:relative;
+	display: inline-block;
+}
+.dd a:hover{
+	color:lime;
+}
+.epl{
+	display:none;
+	position:absolute;
+	background-color:black;
+	width:90px;
+	z-index:1;
+}
+.dd:hover .epl
+{	
+display:block;
+}

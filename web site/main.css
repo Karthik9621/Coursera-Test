@@ -1,0 +1,43 @@
+body{
+	background-image:url("website/images/bgimg/ds.jpg");
+	
+}
+#h1{
+	color:white;
+	font-family:Algerian;
+	font-size:130px;
+	position:absolute;
+	margin-top:140px;
+	margin-left:530px;
+}
+input[type=Search]{
+	background-image:url("website/images/bgimg/ds.jpg");
+	background-position:center;
+    height:28px;
+	width: 280px;
+    margin-left:610px;
+	margin-top:290px;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 5px solid red;
+}
+.ab a{
+	color:white;
+	font-size:20px;
+	display:inline-block;
+	margin-left:1410px;
+	
+}
+.ab a:hover{
+	color:red;
+	transform:perspective(300px) rotateX(180deg);
+	border: 3px solid red;
+}
+.nms a{
+	color: white;
+	font-size: 30px; 
+	margin-left: 620px;
+}
+.nms a:hover{
+	color: grey;
+}	
